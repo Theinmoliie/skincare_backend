@@ -1,3 +1,5 @@
+#main.py
+
 import os
 import logging
 import re
@@ -107,7 +109,7 @@ ROUTINE_STEPS_CONFIG = {
     "night": [
         {'step_name': 'Cleanser', 'product_type': 'Cleanser'},
         {'step_name': 'Toner', 'product_type': 'Toner'},
-        {'step_name': 'Serum', 'product_type': 'Serum'},
+        {'step_name': 'Treatment', 'product_type': 'Treatment'},
         {'step_name': 'Moisturizer', 'product_type': 'Moisturizer'},
         {'step_name': 'Eye Cream', 'product_type': 'Eye cream'},
     ],
